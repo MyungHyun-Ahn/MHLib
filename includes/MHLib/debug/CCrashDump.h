@@ -1,5 +1,11 @@
 #pragma once
 
+#include <windows.h>
+
+#pragma comment(lib, "DbgHelp.Lib")
+#include <crtdbg.h>
+#include <DbgHelp.h>
+
 #define CRASH_DUMP_ON
 
 class CCrashDump
